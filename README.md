@@ -14,3 +14,6 @@ Create the project:
 ```sh
 npx create-turbo@latest
 ```
+
+### Prettier & ESLint in the Monorepo
+
