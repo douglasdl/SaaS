@@ -12,17 +12,30 @@
 
 Create the project:
 ```sh
-npx create-turbo@latest
+pnpm dlx create-turbo@latest
 ```
 
 ### Prettier & ESLint in the Monorepo
 
 ```sh
 cd config/prettier
-npm i -D prettier
-npm i -D prettier-plugin-tailwindcss
+pnpm i -D prettier
+pnpm i -D prettier-plugin-tailwindcss
 
 cd config/eslint-config
-npm i -D @rocketseat/eslint-config
-npm i -D eslint-plugin-simple-import-sort
+pnpm i -D @rocketseat/eslint-config
+pnpm i -D eslint-plugin-simple-import-sort
 ```
+
+### SaaS multi-tenant & RBAC
+
+- RBAC: Role Based Authorization Control
+- ABAC: Attribute Based Authorization Control
+
+### Create the Authentication Package
+
+### CASL Introduction
+
+- [CASL](https://casl.js.org/v6/en/)
+
+### Create the First Permissions
